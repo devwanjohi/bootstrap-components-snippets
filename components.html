@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components</title>
+    <link rel="stylesheet" href="assets/vendor/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Default accordion -->
+        <div class="accordion" id="accordionDefault">
+
+            <!-- Item -->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button>
+                </h3>
+                <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionDefault">
+                    <div class="accordion-body fs-sm">This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Accordion Item #2</button>
+                </h3>
+                <div class="accordion-collapse collapse show" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionDefault">
+                    <div class="accordion-body fs-sm">This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Accordion Item #3</button>
+                </h3>
+                <div class="accordion-collapse collapse show" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionDefault">
+                    <div class="accordion-body fs-sm">This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Alternative accordion -->
+        <div class="accordion accordion-alt" id="accordionAlternative">
+
+            <!-- Item -->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Accordion Item #1</button>
+                </h3>
+                <div class="accordion-collapse collapse show" id="collapseOne" aria-labelledby="headingOne" data-bs-parent="#accordionAlternative">
+                    <div class="accordion-body fs-sm">This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Accordion Item #2</button>
+                </h3>
+                <div class="accordion-collapse collapse show" id="collapseTwo" aria-labelledby="headingTwo" data-bs-parent="#accordionAlternative">
+                    <div class="accordion-body fs-sm">This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Accordion Item #3</button>
+                </h3>
+                <div class="accordion-collapse collapse show" id="collapseThree" aria-labelledby="headingThree" data-bs-parent="#accordionAlternative">
+                    <div class="accordion-body fs-sm">This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Alerts -->
+        <!-- Basic Alerts -->
+        <!-- Primary alert -->
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+        <!-- Secondary alert -->
+        <div class="alert alert-secondary" role="alert">
+            A simple secondary alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+        <!-- Success alert -->
+        <div class="alert alert-success" role="alert">
+            A simple success alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+        <!-- Danger alert -->
+        <div class="alert alert-danger" role="alert">
+            A simple danger alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+        <!-- Warning alert -->
+        <div class="alert alert-warning" role="alert">
+            A simple warning alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+        <!-- Info alert -->
+        <div class="alert alert-info" role="alert">
+            A simple info alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+        <!-- Light alert -->
+        <div class="alert alert-light" role="alert">
+            A simple light alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+        <!-- Dark alert -->
+        <div class="alert alert-dark" role="alert">
+            A simple dark alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.
+        </div>
+
+
+        <!-- Alert with icon -->
+        <!-- Primary alert -->
+        <div class="alert d-flex alert-primary" role="alert">
+            <i class="bi-activity fs-xl pe-1 me-2"></i>
+            <div>A simple primary alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+        <!-- Secondary alert -->
+        <div class="alert d-flex alert-secondary" role="alert">
+            <i class="bi-alarm fs-xl pe-1 me-2"></i>
+            <div>A simple secondary alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+        <!-- Success alert -->
+        <div class="alert d-flex alert-success" role="alert">
+            <i class="bi-apple fs-xl pe-1 me-2"></i>
+            <div>A simple success alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+        <!-- Danger alert -->
+        <div class="alert d-flex alert-danger" role="alert">
+            <i class="bi-archive fs-xl pe-1 me-2"></i>
+            <div>A simple danger alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+        <!-- Warning alert -->
+        <div class="alert d-flex alert-warning" role="alert">
+            <i class="bi-arrow-through-heart fs-xl pe-1 me-2"></i>
+            <div>A simple warning alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+        <!-- Info alert -->
+        <div class="alert d-flex alert-info" role="alert">
+            <i class="bi-arrow-up-right fs-xl pe-1 me-2"></i>
+            <div>A simple info alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+        <!-- Light alert -->
+        <div class="alert d-flex alert-light" role="alert">
+            <i class="bi-at fs-xl pe-1 me-2"></i>
+            <div>A simple light alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+        <!-- Dark alert -->
+        <div class="alert d-flex alert-dark" role="alert">
+            <i class="bi-geo-alt fs-xl pe-1 me-2"></i>
+            <div>A simple dark alert with <a class="alert-link" href="#">an exampple link</a>. Give it a click if you like.</div>
+        </div>
+
+
+        <!-- Dismissible alerts -->
+        <!-- Primary alert -->
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Secondary alert -->
+        <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Success alert -->
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Danger alert -->
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Warning alert -->
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Info alert -->
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Light alert -->
+        <div class="alert alert-light alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Dark alert -->
+        <div class="alert alert-dark alert-dismissible fade show" role="alert">
+            <span class="fw-semibold">Primary alert:</span> Dismiss me by clicking the close button on the right.
+            <button class="btn-close btn-close-white" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <!-- Primary alert with additional content -->
+        <div class="alert alert-primary" role="alert">
+            <h4 class="pt-2 alert-heading">Well done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to a bit longger so that you can see how spacing works with this kind of content</p>
+            <hr class="text-primary opacity-25 mb-3">
+            <p class="mb-2">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+        </div>
+
+
+        <!-- Badges -->
+
+        <!-- Solid -->
+
+        <!-- Primary solid badge -->
+        <span class="badge bg-primary fs-sm">Primary</span>
+
+        <!-- Secondary solid badge -->
+        <span class="badge bg-secondary fs-sm">Secondary</span>
+
+        <!-- Success solid badge -->
+        <span class="badge bg-success fs-sm">Success</span>
+
+        <!-- Danger solid badge -->
+        <span class="badge bg-danger fs-sm">Danger</span>
+
+        <!-- Warning solid badge -->
+        <span class="badge bg-warning fs-sm">Warning</span>
+
+        <!-- Info solid badge -->
+        <span class="badge bg-info fs-sm">Info</span>
+
+        <!-- Light solid badge -->
+        <span class="bg-dark p-2"><span class="badge bg-light fs-sm">Light</span></span>
+
+        <!-- Dark solid badge -->
+        <span class="badge bg-dark fs-sm">Dark</span>
+
+        <!-- Outline -->
+
+        <div class="mt-2">
+            <!-- Primary outline badge -->
+            <span class="badge border border-primary text-primary fs-sm">Primary</span>
+
+            <!-- Secondary outline badge -->
+            <span class="badge border text-nav fs-sm">Secondary</span>
+
+            <!-- Success outline badge -->
+            <span class="badge border border-success text-success fs-sm">Success</span>
+
+            <!-- Danger outline badge -->
+            <span class="badge border border-danger text-danger fs-sm">Danger</span>
+
+            <!-- Warning outline badge -->
+            <span class="badge border border-warning text-warning fs-sm">Warning</span>
+
+            <!-- Info outline badge -->
+            <span class="badge border border-info text-info fs-sm">Info</span>
+
+            <!-- Light outline badge -->
+            <span class="bg-dark p-2"><span class="badge border border-white bg-dark fs-sm">Light</span></span>
+
+            <!-- Dark outline badge -->
+            <span class="badge border border-dark text-dark fs-sm">Dark</span>
+        </div>
+
+        <!-- Translucent -->
+        <div class="mt-2">
+            <!-- Primary translucent badge -->
+            <span class="badge bg-faded-primary text-primary fs-sm">Primary</span>
+
+            <!-- Success translucent badge -->
+            <span class="badge bg-faded-success text-success fs-sm">Success</span>
+
+            <!-- Danger translucent badge -->
+            <span class="badge bg-faded-danger text-danger fs-sm">Danger</span>
+
+            <!-- Warning translucent badge -->
+            <span class="badge bg-faded-warning text-warning fs-sm">Warning</span>
+
+            <!-- Info translucent badge -->
+            <span class="badge bg-faded-info text-info fs-sm">Info</span>
+
+            <!-- Light translucent badge -->
+            <span class="bg-dark p-2"><span class="badge bg-faded-light fs-sm">Light</span></span>
+
+            <!-- Dark translucent badge -->
+            <span class="badge bg-faded-dark text-dark fs-sm">Dark</span>
+        </div>
+
+        <!-- Inside headings -->
+        <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+        <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+        <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+        <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+        <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+        <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+
+        <!-- Inside button -->
+        <!-- Button + badge -->
+        <button class="btn btn-primary" type="button">
+            Notifications <span class="badge bg-light ms-2">4</span>
+        </button>
+
+        <!-- Fill button + badge -->
+        <button class="btn btn-dark rounded-pill" type="button">
+            Profile <span class="badge bg-danger ms-2">9</span>
+        </button>
+
+        <!-- Outline button + badge -->
+        <button class="btn btn-outline-secondary" type="button">
+            Messages <span class="badge bg-info ms-2">18</span>
+        </button>
+
+        <!-- Inside list -->
+        <!-- Badges inside list group -->
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                Messages
+                <span class="badge bg-success">14</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                Orders
+                <span class="badge bg-warning">2</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                Favourites
+                <span class="badge bg-danger">6</span>
+            </a>
+        </div>
+
+        <!-- Blog components -->
+        <!-- Post preview (Grid) -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <!-- Post preview card with image -->
+                <article class="card border-0 bg-secondary">
+                    <a href="#">
+                        <img src="assets/img/blog/grid/01.jpg" alt="Post image" class="card-img-top">
+                    </a>
+                    <div class="card-body pd-4">
+                        <div class="d-flex align-items-center mb-4 mt-n1">
+                            <span class="fs-sm text-muted">12 hours ago</span>
+                            <span class="fs-xs opacity-20 mx-3">|</span>
+                            <a href="#" class="badge text-nav fs-xs border">Books</a>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="#">Top books for inspiration</a>
+                        </h3>
+                        <p class="card-text">Vulputate auctor lacus imperdiet facilisi tristique nisl pulvinar porta diam duis odio</p>
+                    </div>
+                    <div class="card-footer pt-3">
+                        <a href="#" class="d-flex align-items-center text-decoration-none pb-2">
+                            <img src="assets/img/avatar/06.jpg" width="48" alt="Post author" class="rounded-circle">
+                            <h6 class="ps-3 mb-0">Jenny Wilson</h6>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="col">
+                <!-- Post previw carrd no image -->
+                <article class="card border-0 bg-secondary">
+                    <div class="card-body pd-4">
+                        <div class="d-flex align-items-center mb-4 mt-n1">
+                            <span class="fs-sm text-muted">July 16, 2022</span>
+                            <span class="fs-xs opacity-20 mx-3">|</span>
+                            <a href="#" class="badge text-nav fs-xs border">Inspiration</a>
+                        </div>
+                        <h3 class="h4 card-title">
+                            <a href="#">How to look for inspiration for new goals</a>
+                        </h3>
+                        <p class="card-text">Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget libero pulvinar elit vulputate...</p>
+                    </div>
+                    <div class="card-footer pt-3">
+                        <a href="#" class="d-flex align-items-center text-decoration-none pb-2">
+                            <img src="assets/img/avatar/08.jpg" width="48" alt="Post author" class="rounded-circle">
+                            <h6 class="ps-3 mb-0">Guy Hawkins</h6>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Post preview (Liist) -->
+        <!-- Post preview card horizontal (List view) -->
+        <article class="row g-0 border-0">
+            <a href="#" class="col-sm-5 bg-repeat-0 bg-size-cover bg-position-center rounded-5" style="background-image: url(assets/img/blog/list/03.jpg); min-height: 14rem"></a>
+            <div class="col-sm-7">
+                <div class="pt-4 pd-sm-4 ps-sm-4 pe-lg-4">
+                    <h3>
+                        <a href="#">Destinations to inspire and restore resources</a>
+                    </h3>
+                    <p class="d-sm-none d-md-block">Sapien ultrices egestas at faucibus eu diam velit diam id amet nibh quam rutrum diam fermentum diam natoque scelerisque viverra molestie fames...</p>
+                    <div class="d-flex flex-wrap align-items-center mt-n2">
+                        <a href="#" class="nav-link text-muted fs-sm fw-normal p-0 mt-2 me-3">
+                            8
+                            <i class="bi-share fs-lg ms-1"></i>
+                        </a>
+                        <span class="fs-xs opacity-20 mt-2 mx-3">|</span>
+                        <span class="fs-sm text-muted mt-2">16 hours ago</span>
+                        <span class="fs-xs opacity-20 mt-2 mx-3">|</span>
+                        <a href="#" class="badge text-nav fs-xs border mt-2">Travel</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Simple post preview card -->
+        <article class="position-relative">
+            <img src="assets/img/blog/list/06.jpg" alt="Post image" class="rounded-5">
+            <h3 class="h4 mt-4 mb-0">
+                <a href="#" class="stretched-link">A session with a psychologist a personal choice or a fashion trend in society</a>
+            </h3>
+        </article>
+
+        <!-- Featured posts widget for sidebar area -->
+        <!-- Featureed posts widget for sidebar area -->
+        <div style="max-width: 310px;">
+            <h3 class="h4 pb-1">Trending posts:</h3>
+
+            <!-- Item -->
+            <article class="position-relative d-flex align-items-center mb-4">
+            <img src="assets/img/blog/sidebar/01.jpg" class="rounded" width="92" alt="Post image">
+            <div class="ps-3">
+                <h4 class="h6 mb-2">
+                <a href="#" class="stretched-link">Instagram trends that will definitely work</a>
+                </h4>
+                <span class="fs-sm text-muted">13 hours ago</span>
+            </div>
+            </article>
+
+            <!-- Item -->
+            <article class="position-relative d-flex align-items-center mb-4">
+            <img src="assets/img/blog/sidebar/02.jpg" class="rounded" width="92" alt="Post image">
+            <div class="ps-3">
+                <h4 class="h6 mb-2">
+                <a href="#" class="stretched-link">A session with a psychologist</a>
+                </h4>
+                <span class="fs-sm text-muted">May 12, 2022</span>
+            </div>
+            </article>
+
+            <!-- Item -->
+            <article class="position-relative d-flex align-items-center">
+            <img src="assets/img/blog/sidebar/03.jpg" class="rounded" width="92" alt="Post image">
+            <div class="ps-3">
+                <h4 class="h6 mb-2">
+                <a href="#" class="stretched-link">How to look for inspiration for new goals</a>
+                </h4>
+                <span class="fs-sm text-muted">June 10, 2022</span>
+            </div>
+            </article>
+        </div>
+
+    </div>
+    <script src="assets/vendor/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
